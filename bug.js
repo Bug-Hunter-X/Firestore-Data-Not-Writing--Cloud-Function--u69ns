@@ -1,0 +1,1 @@
+In a Firebase project, I encountered an issue where data wasn't being written to the Firestore database despite seemingly correct code.  The `set()` method was used, and error handling indicated no exceptions.  However, the data remained absent from the database.  The code was part of a Cloud Function triggered by an HTTPS request.
